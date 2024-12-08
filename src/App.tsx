@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import About from "./pages/About";
 import Menu from "./pages/Menu";
+import Communication from "./pages/Communication";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/anasayfa" element={<Home />} />
           <Route path="/hakkımızda" element={<About />} />
           <Route path="/menu" element={<Menu />} />
+          <Route path="/iletisim" element={<Communication />} />
         </Route>
       </Routes>
     </BrowserRouter>
