@@ -20,10 +20,14 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
+    <header
+      className={`fixed top-0 left-0 right-0 shadow-md z-50 transition-all duration-300 ${
+        isScrolled ? "bg-white/60 backdrop-blur-sm" : "bg-white"
+      }`}
+    >
       <div
-        className={`w-full bg-zinc-900 text-zinc-400 py-6 px-4 transition-all duration-300 ${
-          isScrolled ? "h-0 py-0 opacity-0 overflow-hidden" : ""
+        className={`w-full bg-zinc-900 text-zinc-400  px-4 transition-all duration-300 ${
+          isScrolled ? "h-0 py-0 opacity-0 overflow-hidden" : "py-6"
         }`}
       >
         <div className="container mx-auto flex justify-between items-center text-sm">
@@ -52,8 +56,8 @@ const Header = () => {
       </div>
 
       <div
-        className={`bg-white transition-all duration-300 ${
-          isScrolled ? "bg-opacity-100 shadow-lg" : ""
+        className={`transition-all duration-300 ${
+          isScrolled ? "bg-white/70 backdrop-blur-sm" : "bg-white"
         }`}
       >
         <div className="container mx-auto py-4 px-4">

@@ -1,6 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Facebook, Instagram, X, Youtube } from "lucide-react";
+import {
+  Facebook,
+  Instagram,
+  Mail,
+  Map,
+  MapPin,
+  Phone,
+  X,
+  Youtube,
+} from "lucide-react";
 
 const Footer = () => {
   return (
@@ -24,15 +33,15 @@ const Footer = () => {
             <h3 className="text-white text-2xl font-semibold">İletişim</h3>
             <div className="flex flex-col gap-3 text-sm">
               <div className="flex items-center gap-2">
-                phone
+                <Phone className="h-5 w-5" />
                 <span>+90 216 258 55 40</span>
               </div>
               <div className="flex items-center gap-2">
-                mail
+                <Mail className="h-5 w-5" />
                 <span>info@basakdoner.com</span>
               </div>
               <div className="flex items-center gap-2">
-                map
+                <MapPin className="h-5 w-5" />
                 <span>İstanbul, Türkiye</span>
               </div>
             </div>

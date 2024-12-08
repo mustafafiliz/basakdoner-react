@@ -36,28 +36,28 @@ const SampleSlider: React.FC = () => {
           <img
             src="/images/döner.jpg"
             alt="Resim 1"
-            className="w-full h-[850px] object-cover rounded-lg"
+            className="w-full h-[490px] object-cover rounded-lg"
           />
         </div>
         <div className="relative">
           <img
             src="/images/restaurant1.jpg"
             alt="Resim 2"
-            className="w-full h-[850px] object-cover rounded-lg"
+            className="w-full h-[490px] object-cover rounded-lg"
           />
         </div>
         <div className="relative">
           <img
             src="/images/döner2.jpg"
             alt="Resim 3"
-            className="w-full h-[850px] object-cover rounded-lg"
+            className="w-full h-[490px] object-cover rounded-lg"
           />
         </div>
         <div className="relative">
           <img
             src="/images/döner3.jpg"
             alt="Resim 4"
-            className="w-full h-[850px] object-cover rounded-lg"
+            className="w-full h-[490px] object-cover rounded-lg"
           />
         </div>
       </Slider>
