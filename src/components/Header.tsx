@@ -1,10 +1,19 @@
-import { Facebook, Instagram, Mail, Phone, Twitter } from "lucide-react";
+import {
+  Facebook,
+  Instagram,
+  Mail,
+  Menu,
+  Phone,
+  Twitter,
+  X,
+} from "lucide-react";
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { navLinkStyles } from "../utils/styles";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = React.useState(false);
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   React.useEffect(() => {
     const handleScroll = () => {
@@ -26,12 +35,12 @@ const Header = () => {
       }`}
     >
       <div
-        className={`w-full bg-zinc-900 text-zinc-400  px-4 transition-all duration-300 ${
+        className={`w-full bg-zinc-900 text-zinc-400 px-4 transition-all duration-300 ${
           isScrolled ? "h-0 py-0 opacity-0 overflow-hidden" : "py-6"
         }`}
       >
-        <div className="container mx-auto flex justify-between items-center text-sm">
-          <div className="flex items-center gap-4">
+        <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center text-sm gap-4 sm:gap-0">
+          <div className="flex flex-col sm:flex-row items-center gap-4">
             <div className="flex items-center gap-2">
               <Phone className="h-5 w-5" />
               <span>+90 216 258 55 40</span>
@@ -61,17 +70,30 @@ const Header = () => {
         }`}
       >
         <div className="container mx-auto py-4 px-4">
-          <div className="flex justify-between items-center">
+          <div className="flex lg:justify-between justify-around items-center">
             <Link to="/" className="flex items-center gap-2">
               <img
                 src="/images/logo.jpeg"
                 alt="Başak Döner"
-                className="w-full sm:w-1/2 md:w-1/3 lg:w-1/5 h-auto object-cover "
+                className="lg:w-32 w-16  h-auto object-cover"
               />
-              <span className="text-3xl font-serif text-red-800">
+              <span className="lg:text-3xl text-lg font-serif text-red-800">
                 Başak Döner
               </span>
             </Link>
+
+            <button
+              className="md:hidden"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+              {isMenuOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
+            </button>
+
+            {/* Desktop Menu */}
             <nav className="hidden md:flex items-center gap-6 text-zinc-700 uppercase text-xl font-bold">
               <NavLink
                 to="/anasayfa"
@@ -104,6 +126,53 @@ const Header = () => {
                 İLETİŞİM
               </NavLink>
             </nav>
+
+            {/* Mobile Menu */}
+            <div
+              className={`
+                fixed inset-0 bg-white z-50 md:hidden
+                transition-transform duration-300 ease-in-out
+                ${isMenuOpen ? "translate-x-0" : "translate-x-full"}
+              `}
+            >
+              <div className="flex flex-col items-center pt-20 gap-8 text-zinc-700 uppercase text-xl font-bold">
+                <NavLink
+                  to="/anasayfa"
+                  onClick={() => setIsMenuOpen(false)}
+                  className={({ isActive }) => navLinkStyles(isActive)}
+                >
+                  ANASAYFA
+                </NavLink>
+                <NavLink
+                  to="/hakkımızda"
+                  onClick={() => setIsMenuOpen(false)}
+                  className={({ isActive }) => navLinkStyles(isActive)}
+                >
+                  HAKKIMIZDA
+                </NavLink>
+                <NavLink
+                  to="/menu"
+                  onClick={() => setIsMenuOpen(false)}
+                  className={({ isActive }) => navLinkStyles(isActive)}
+                >
+                  MENÜ
+                </NavLink>
+                <NavLink
+                  to="/basin"
+                  onClick={() => setIsMenuOpen(false)}
+                  className={({ isActive }) => navLinkStyles(isActive)}
+                >
+                  BASIN
+                </NavLink>
+                <NavLink
+                  to="/iletisim"
+                  onClick={() => setIsMenuOpen(false)}
+                  className={({ isActive }) => navLinkStyles(isActive)}
+                >
+                  İLETİŞİM
+                </NavLink>
+              </div>
+            </div>
           </div>
         </div>
       </div>

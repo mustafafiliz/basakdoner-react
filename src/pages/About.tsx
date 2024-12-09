@@ -2,15 +2,12 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="flex items-start justify-end pt-10 pr-40  h-screen w-full bg-[url('/images/arkaplan.jpg')] bg-cover bg-center bg-no-repeat ">
-      {/* <img
-        src="/images/döner2.jpg"
-        alt="döner"
-        className="w-[500px] h-[400px] object-cover rounded-lg"
-      /> */}
-      <div className="flex flex-col gap-4 mt-10">
-        <h3 className="text-black text-3xl leading-7 font-bold">BAŞAK DÖNER</h3>
-        <p className="text-gray-50 leading-7 text-xl font-bold max-w-[600px]">
+    <div className="flex items-center justify-center md:justify-end w-full min-h-screen bg-[url('/images/arkaplan.jpg')] bg-cover bg-center bg-no-repeat p-4 md:p-10">
+      <div className="flex flex-col gap-4 md:mt-10 md:pr-10 lg:pr-40 max-w-[95%] md:max-w-[600px]">
+        <h3 className="text-black text-2xl md:text-3xl leading-7 font-bold text-center md:text-left">
+          BAŞAK DÖNER
+        </h3>
+        <p className="text-gray-50 leading-7 text-base md:text-xl font-bold bg-black/30 p-4 rounded-lg md:bg-transparent">
           Başak Döner olarak, lezzeti bir sanat olarak görüyoruz! Kuruluşumuzdan
           bu yana, misafirlerimize en iyi döner deneyimini sunma tutkusuyla
           çalışıyoruz. Tüm ürünlerimizi sevgi ve özenle hazırlıyor, her bir
