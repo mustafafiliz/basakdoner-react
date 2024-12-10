@@ -1,5 +1,4 @@
 import { PlayCircle } from "lucide-react";
-import React from "react";
 
 interface VideoItem {
   title: string;
