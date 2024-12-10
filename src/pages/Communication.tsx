@@ -1,5 +1,5 @@
 import { Mail, MapPin, Phone } from "lucide-react";
-import React, { useState } from "react";
+import { useState } from "react";
 import Input from "../components/Input";
 import TextArea from "../components/TextArea";
 import Button from "../components/Button";

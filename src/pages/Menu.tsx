@@ -1,4 +1,3 @@
-import React from "react";
 import { CardContent } from "../components/MenuCard";
 
 const menuItems = [

@@ -1,5 +1,3 @@
-import React from "react";
-
 const About = () => {
   return (
     <div className="flex items-center justify-center md:justify-end w-full min-h-screen bg-[url('/images/arkaplan.jpg')] bg-cover bg-center bg-no-repeat p-4 md:p-10">
