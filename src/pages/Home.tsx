@@ -41,7 +41,7 @@ const Home = () => {
       <img
         src="/images/döner5.jpg"
         alt="döner"
-        className="w-full aspect-[6/1] object-cover"
+        className="w-full aspect-[6/1] object-cover lg:flex hidden"
       />
       <Container>
         <div className="lg:grid lg:grid-cols-3 flex flex-col gap-4 md:gap-12 justify-center lg:my-16 my-5">
