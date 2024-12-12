@@ -6,6 +6,7 @@ import {
   Phone,
   Twitter,
   X,
+  XIcon,
 } from "lucide-react";
 import React, { useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
@@ -143,6 +144,12 @@ const Header = () => {
                 ${isMenuOpen ? "translate-x-0" : "translate-x-full"}
               `}
             >
+              <span
+                className="absolute top-4 right-4 text-zinc-700"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                <XIcon />
+              </span>
               <div className="flex flex-col items-center pt-20 gap-8 text-zinc-700 uppercase text-xl font-bold">
                 <NavLink
                   to="/anasayfa"
