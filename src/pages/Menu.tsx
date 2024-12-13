@@ -145,13 +145,19 @@ const menuItems = {
   ],
 };
 
+const separateWords = (word: string) => {
+  return word
+    .replace(/([a-z])([A-Z])/g, "$1 $2")
+    .replace(/([A-Z])([A-Z][a-z])/g, "$1 $2");
+};
+
 const Menu = () => {
   return (
     <div className="container mx-auto py-8">
       {Object.entries(menuItems).map(([category, items]) => (
         <div key={category} className="mb-12">
           <h2 className="text-3xl font-bold mb-6 text-[#A31F34] text-center uppercase">
-            {category}
+            {separateWords(category)}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {items.map((item, index) => (
