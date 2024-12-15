@@ -26,10 +26,10 @@ const Communication = () => {
             <div>
               <h3 className="font-semibold text-xl mb-2">İletişim</h3>
               <a
-                href="tel:+902163808643"
+                href="tel:+902164630563"
                 className="text-gray-100 hover:text-gray-300"
               >
-                Tel: +90 216 380 86 43
+                Tel: +90 216 463 05 63
               </a>
             </div>
           </div>
@@ -39,10 +39,10 @@ const Communication = () => {
             <div>
               <h3 className="font-semibold text-xl mb-2">E-Mail</h3>
               <a
-                href="mailto:batuhann.mericc@gmail.com"
+                href="mailto:basakdoner@outlook.com"
                 className="text-gray-100 hover:text-gray-300"
               >
-                batuhann.mericc@gmail.com
+                basakdoner@outlook.com
               </a>
             </div>
           </div>

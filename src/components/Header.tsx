@@ -54,17 +54,17 @@ const Header = () => {
             <div className="flex flex-col sm:flex-row items-center gap-4">
               <div className="flex items-center gap-2 w-full">
                 <Phone className="h-5 w-5" />
-                <a href="tel:+902163808643" className="hover:text-gray-300">
-                  +90 216 380 86 43
+                <a href="tel:+902164630563" className="hover:text-gray-300">
+                  +90 216 463 05 63
                 </a>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-5 w-5" />
                 <a
-                  href="mailto:batuhann.mericc@gmail.com"
+                  href="mailto:basakdoner@outlook.com"
                   className="hover:text-gray-300"
                 >
-                  batuhann.mericc@gmail.com
+                  basakdoner@outlook.com
                 </a>
               </div>
             </div>
