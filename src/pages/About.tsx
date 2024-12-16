@@ -7,11 +7,11 @@ const About = () => {
         alt=""
       />
       <div className="">
-        <div className="flex flex-col text-center mx-auto lg:gap-4 gap-2 my-8 md:my-14 px-8 md:px-20">
-          <h3 className="text-2xl md:text-4xl font-semibold text-zinc-800 md:leading-7 text-center">
+        <div className="flex flex-col  mx-auto lg:gap-4 gap-2 my-8 md:my-14 px-8 md:px-20">
+          <h3 className="text-2xl md:text-4xl font-semibold text-zinc-800 md:leading-7 text-center md:mb-8">
             BAŞAK DÖNER
           </h3>
-          <p className="text-sm md:text-base font-medium text-[#1a1a1a]  overflow-y-auto leading-10">
+          <p className="text-sm md:text-base font-medium text-[#1a1a1a]  overflow-y-auto leading-10 ">
             Başak Döner olarak, lezzeti bir sanat olarak görüyoruz!
             Kuruluşumuzdan bu yana, misafirlerimize en iyi döner deneyimini
             sunma tutkusuyla çalışıyoruz. Tüm ürünlerimizi sevgi ve özenle
@@ -29,6 +29,34 @@ const About = () => {
             Lezzete olan bağlılığımızı sürdürerek, her zaman daha iyisini
             hedefliyoruz. Başak Döner ailesine katıldığınız için teşekkür
             ederiz. Gelin, birlikte bu eşsiz lezzet yolculuğuna çıkalım!
+          </p>
+          <p className="text-sm md:text-base font-medium text-[#1a1a1a]  overflow-y-auto leading-10">
+            <br />
+            Dönerimiz sadece bir yemek değil, bir tutkunun eseri. Başak Döner
+            olarak, misafirlerimize sunduğumuz her porsiyonun bir hikâyesi
+            olduğuna inanıyoruz. İster bir öğle yemeği molasında olun, ister
+            sevdiklerinizle keyifli bir akşam yemeği planlayın, her anınızı daha
+            özel kılmak için buradayız. Dönerin tarihine duyduğumuz saygıyı,
+            inovasyonla birleştirerek her damak zevkine hitap eden menüler
+            oluşturuyoruz.
+          </p>
+          <p className="text-sm md:text-base font-medium text-[#1a1a1a]  overflow-y-auto leading-10">
+            <br />
+            Başak Döner için her müşteri bir aile üyesi gibidir. Bu nedenle
+            hizmetimizi yalnızca masaya servis etmekle sınırlamıyor, her bir
+            misafirimizi evlerindeymiş gibi hissettirmek için çabalıyoruz.
+            Misafirlerimizin ihtiyaçlarına kulak veriyor, onların önerileri
+            doğrultusunda kendimizi geliştirmeye devam ediyoruz. Çünkü biliyoruz
+            ki en büyük başarı, yüzlerdeki memnuniyet dolu bir gülümsemedir.
+          </p>
+          <p className="text-sm md:text-base font-medium text-[#1a1a1a]  overflow-y-auto leading-10">
+            <br /> Gelecek hedeflerimiz de bir o kadar iddialı! Türk mutfağının
+            bu eşsiz lezzetini, dünya çapında daha fazla insana tanıtmayı
+            amaçlıyoruz. Kalitemizden ödün vermeden büyürken, her geçen gün daha
+            fazla insanı Başak Döner ailesinin bir parçası yapmayı hedefliyoruz.
+            Şimdi siz de bu lezzet serüvenine adım atın ve Başak Döner’in
+            farkını hissedin! Afiyetle kalın, Başak Döner ailesi olarak sizleri
+            bekliyoruz.
           </p>
         </div>
       </div>
