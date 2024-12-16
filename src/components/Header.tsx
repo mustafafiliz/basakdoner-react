@@ -63,6 +63,8 @@ const Header = () => {
                 <a
                   href="mailto:basakdoner@outlook.com"
                   className="hover:text-gray-300"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   basakdoner@outlook.com
                 </a>
