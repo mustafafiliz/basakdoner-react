@@ -67,8 +67,9 @@ const Footer = () => {
                 Çalışma Saatleri
               </h3>
               <div className="flex flex-col gap-2 text-sm">
-                <p>Pazartesi - Cuma: 10:00 - 22:00</p>
-                <p>Cumartesi - Pazar: 10:00 - 23:00</p>
+                <p>Pazartesi - Cuma: 11:00 - 19:30</p>
+                <p>Cumartesi : 11:00 - 19:30</p>
+                <p>Pazar : Kapalı</p>
               </div>
             </div>
 

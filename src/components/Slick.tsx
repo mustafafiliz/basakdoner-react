@@ -33,21 +33,21 @@ const SampleSlider: React.FC = () => {
       <Slider {...settings}>
         <div className="relative">
           <img
-            src="/images/döner.jpg"
+            src="/images/1.jpeg"
             alt="Resim 1"
             className="w-full aspect-[2/1] lg:aspect-[3/1] object-cover"
           />
         </div>
         <div className="relative">
           <img
-            src="/images/restaurant1.jpg"
+            src="/images/2.jpeg"
             alt="Resim 2"
             className="w-full aspect-[2/1] lg:aspect-[3/1] object-cover"
           />
         </div>
         <div className="relative">
           <img
-            src="/images/döner2.jpg"
+            src="/images/3.jpeg"
             alt="Resim 3"
             className="w-full aspect-[2/1] lg:aspect-[3/1] object-cover"
           />

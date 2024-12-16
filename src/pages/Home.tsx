@@ -13,7 +13,7 @@ const Home = () => {
       <Container>
         <div className="lg:grid lg:grid-cols-3 flex flex-col-reverse justify-center gap-4 md:gap-12 lg:my-16 my-5">
           <img
-            src="/images/döner2.jpg"
+            src="/images/3.jpeg"
             alt="döner"
             className="w-full aspect-square rounded-md object-cover"
           />
@@ -38,13 +38,9 @@ const Home = () => {
           </div>
         </div>
       </Container>
-      <img
-        src="/images/döner5.jpg"
-        alt="döner"
-        className="w-full aspect-[6/1] object-cover lg:flex hidden"
-      />
+
       <Container>
-        <div className="lg:grid lg:grid-cols-3 flex flex-col gap-4 md:gap-12 justify-center lg:my-16 my-5">
+        <div className="lg:grid lg:grid-cols-3 flex flex-col gap-4 md:gap-12 justify-center lg:my-20 my-5">
           <div className="lg:col-span-2 flex flex-col gap-4">
             <h2 className="text-2xl md:text-4xl font-semibold text-zinc-800">
               Kaliteyi Her Zaman Ön Planda Tutarız
