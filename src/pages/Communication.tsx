@@ -52,10 +52,19 @@ const Communication = () => {
       </div>
 
       <div className="container mx-auto py-12 px-4">
-        <div className="w-full h-[500px]  rounded-lg">
+        <div className="w-full h-[500px]  rounded-lg hidden lg:block">
           <div className="w-full h-full flex items-center justify-center text-gray-500">
             <img
               src="/images/Maps.png"
+              alt="maps"
+              className="h-full object-cover"
+            />
+          </div>
+        </div>
+        <div className="w-full h-[500px]  rounded-lg lg:hidden">
+          <div className="w-full h-full flex items-center justify-center text-gray-500">
+            <img
+              src="/images/MapsMobile.png"
               alt="maps"
               className="h-full object-cover"
             />

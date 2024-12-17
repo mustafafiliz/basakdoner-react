@@ -11,7 +11,7 @@ const Press = () => {
               <img
                 src="/images/4.jpeg"
                 alt="Newspaper article"
-                className="max-w-[550px]  object-cover rounded-lg shadow-md"
+                className="md:max-w-[550px] object-cover rounded-lg shadow-md"
               />
             </div>
             <p className="text-sm md:text-base font-medium text-[#1a1a1a] lg:max-w-[700px] overflow-y-auto">

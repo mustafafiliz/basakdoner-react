@@ -115,8 +115,8 @@ const menuItems = {
       image: "/images/Şehriye-Çorbası.jpg",
     },
     {
-      title: "Ezogelin Çorbası(fotoğraf yok)",
-      image: "/images/çorba.jpg",
+      title: "Ezogelin Çorbası",
+      image: "/images/Ezogelin-Çorba.jpeg",
     },
   ],
   tatlılar: [
@@ -130,7 +130,7 @@ const menuItems = {
     },
     {
       title: "FIRIN SÜTLAÇ",
-      image: "",
+      image: "/images/Sütlaç2.jpeg",
     },
   ],
   yanLezzetler: [
@@ -169,12 +169,12 @@ const Menu = () => {
                   <div className="absolute top-0 left-0 right-0 z-10 bg-[#A31F34] text-white py-2 px-4 text-center font-semibold">
                     {item.title}
                   </div>
-                  <CardContent className="p-0">
-                    <div className="relative aspect-[4/3]">
+                  <CardContent className="p-0 ">
+                    <div className="relative aspect-4/3">
                       <img
                         src={item.image}
                         alt={item.title}
-                        className="object-cover"
+                        className="object-cover  md:transition-transform md:duration-300 md:hover:scale-110"
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       />
                     </div>
