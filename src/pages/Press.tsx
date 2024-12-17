@@ -16,20 +16,22 @@ const Press = () => {
         <link rel="canonical" href="/basin" />
       </Helmet>
       <div>
-        <section className="py-12">
+        <section className="lg:py-12 py-6">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-semibold mb-8">Gazete & Dergi</h2>
-            <div className="border-2 border-red-800 w-full my-10" />
+            <h2 className="lg:text-3xl text-xl font-semibold lg:mb-8 mb-2">
+              Gazete & Dergi
+            </h2>
+            <div className="lg:border-2 border border-red-800 w-full lg:my-10 my-5" />
 
-            <div className="flex gap-16 mt-28">
-              <div className="relative aspect-[3/2] hover:opacity-80 transition-opacity cursor-pointer">
+            <div className="lg:flex lg:gap-16 lg:mt-28 mt-10">
+              <div className="relative aspect-[3/2] lg:hover:opacity-80 transition-opacity cursor-pointer">
                 <img
                   src="/images/4.jpeg"
                   alt="Newspaper article"
                   className="md:max-w-[550px] object-cover rounded-lg shadow-md"
                 />
               </div>
-              <p className="text-sm md:text-base font-medium text-[#1a1a1a] lg:max-w-[700px] overflow-y-auto">
+              <p className="text-sm md:text-base font-medium text-[#1a1a1a] lg:max-w-[700px] overflow-y-auto mt-10 lg:mt-0">
                 <span className="text-red-800 font-bold">
                   BAŞAK DÖNER&KÖFTE
                 </span>{" "}
