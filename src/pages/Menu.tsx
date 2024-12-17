@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import { CardContent } from "../components/MenuCard";
 
 const menuItems = {
@@ -152,39 +153,75 @@ const separateWords = (word: string) => {
 };
 
 const Menu = () => {
+  const sectionRefs = useRef<{ [key: string]: HTMLDivElement | null }>({});
+
+  const scrollToSection = (category: string) => {
+    const element = sectionRefs.current[category];
+    const offset = 100; // Üst menü yüksekliği için offset
+
+    if (element) {
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
-    <div className="container mx-auto py-8">
-      {Object.entries(menuItems).map(([category, items]) => (
-        <div key={category} className="mb-12">
-          <h2 className="text-3xl font-bold mb-6 text-[#A31F34] text-center uppercase">
-            {separateWords(category)}
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {items.map((item, index) => (
-              <CardContent
-                key={index}
-                className="overflow-hidden border-none shadow-lg"
-              >
-                <div className="relative">
-                  <div className="absolute top-0 left-0 right-0 z-10 bg-[#A31F34] text-white py-2 px-4 text-center font-semibold">
-                    {item.title}
-                  </div>
-                  <CardContent className="p-0 ">
-                    <div className="relative aspect-4/3">
-                      <img
-                        src={item.image}
-                        alt={item.title}
-                        className="object-cover  md:transition-transform md:duration-300 md:hover:scale-110"
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      />
-                    </div>
-                  </CardContent>
-                </div>
-              </CardContent>
-            ))}
-          </div>
+    <div>
+      <nav className="sticky lg:top-[89px] top-[48px] bg-[#A31F34] text-white shadow-md z-30">
+        <div className="container mx-auto flex justify-center flex-wrap gap-4 p-4">
+          {Object.keys(menuItems).map((category) => (
+            <button
+              key={category}
+              onClick={() => scrollToSection(category)}
+              className="lg:px-4 lg:py-2 lg:text-lg text-sm font-semibold hover:text-black transition-colors uppercase"
+            >
+              {separateWords(category)}
+            </button>
+          ))}
         </div>
-      ))}
+      </nav>
+      <div className="container mx-auto py-8 lg:mt-4">
+        {Object.entries(menuItems).map(([category, items]) => (
+          <div
+            key={category}
+            ref={(el) => (sectionRefs.current[category] = el)}
+            className="mb-12"
+          >
+            <h2 className="text-3xl font-bold mb-6 text-[#A31F34] text-center uppercase">
+              {separateWords(category)}
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {items.map((item, index) => (
+                <CardContent
+                  key={index}
+                  className="overflow-hidden border-none shadow-lg"
+                >
+                  <div className="relative">
+                    <div className="absolute top-0 left-0 right-0 z-10 bg-[#A31F34] text-white py-2 px-4 text-center font-semibold">
+                      {item.title}
+                    </div>
+                    <CardContent className="p-0 ">
+                      <div className="relative aspect-4/3">
+                        <img
+                          src={item.image}
+                          alt={item.title}
+                          className="object-cover  md:transition-transform md:duration-300 md:hover:scale-110"
+                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        />
+                      </div>
+                    </CardContent>
+                  </div>
+                </CardContent>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
