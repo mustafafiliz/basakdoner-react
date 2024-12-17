@@ -18,7 +18,7 @@ const Communication = () => {
       </Helmet>
       <div className="flex flex-col min-h-screen">
         <img
-          src="/images/döner2.jpg"
+          src="/images/döner3.jpg"
           alt="döner"
           className="w-full h-[400px] object-cover"
         />
