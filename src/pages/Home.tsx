@@ -23,66 +23,103 @@ const Home = () => {
           <meta name="description" content="Nested component" />
         </Helmet>
         <SampleSlider />
+
         <Container>
           <div className="lg:grid lg:grid-cols-3 flex flex-col-reverse justify-center gap-4 md:gap-12 lg:my-16 my-5">
             <img
-              src="/images/3.jpeg"
+              src="/images/6.jpg"
               alt="döner"
               className="w-full aspect-square rounded-md object-cover"
             />
             <div className="lg:col-span-2 flex flex-col gap-4">
               <h2 className="text-2xl md:text-4xl font-semibold text-zinc-800">
-                Kalite & Hijyen
+                Tecrübe
               </h2>
               <div className="border border-b-red-800" />
               <p className="text-sm md:text-base font-medium text-[#1a1a1a] lg:max-w-[700px] overflow-y-auto">
-                Başak Döner, insan sağlığına gösterdiği önemi, uluslararası
-                geçerliliği olan EN ISO 22000-2005 Kalite Yönetim Sistem
-                Belgesi’ni almaya hak kazanarak da kanıtlamıştır. İmalathane ve
-                restaurantımızda görev yapan tüm personelimiz düzenli
-                periyotlarda sağlık kontrollerinden geçirilmektedir. <br />{" "}
-                <br /> Firmamız bünyesinde veteriner hekim ve gıda teknikeri
-                olmak üzere mesleğinde uzman iki kişi sadece gıda güvenirliği,
-                sağlık ve hijyen konusunda görev yapmaktadır.
-                <br /> <br /> Asıl amacı kaliteli bir hizmet sunmak olan
-                işletmemizi ve imalathanemizi arzu eden müşterilerimiz
-                diledikleri zaman ziyaret edebilirler.
+                Kurucularımızın sektördeki 40 yıllık deneyimi, döner ve
+                geleneksel Türk mutfağı konusundaki uzmanlıklarıyla birleşiyor.
+                Bu bilgi birikimini, bölgemizdeki onlarca yıllık hizmet
+                süresiyle pekçok misafirimizle paylaşmanın gururunu yaşıyoruz.
+                Yeni yerimizde de bu tecrübeyi en iyi hizmet anlayışıyla sizlere
+                sunmaya devam ediyoruz.
               </p>
             </div>
           </div>
         </Container>
-
         <Container>
           <div className="lg:grid lg:grid-cols-3 flex flex-col gap-4 md:gap-12 justify-center lg:my-20 my-5">
             <div className="lg:col-span-2 flex flex-col gap-4">
               <h2 className="text-2xl md:text-4xl font-semibold text-zinc-800">
-                Kaliteyi Her Zaman Ön Planda Tutarız
+                Lezzet
               </h2>
               <div className="border border-b-red-800" />
               <p className="text-sm md:text-base font-medium text-[#1a1a1a] max-h-[30vh] lg:max-w-[800px] overflow-y-auto">
-                Tüm yemeklerimizi en yüksek hijyen standartlarına uygun olarak
-                hazırlıyoruz. Sağlığınız bizim için her şeyden önce gelir.
-                Malzemelerimizi titizlikle seçiyor, geleneksel döner tarifini
-                modern mutfak anlayışıyla harmanlıyoruz.
-                <br />
-                <br /> Hem damak tadınıza hitap etmek hem de güvenli bir yemek
-                deneyimi sunmak için her adımı özenle atıyoruz.
-              </p>
-
-              <h2 className="text-2xl md:text-4xl font-semibold text-zinc-700 lg:mt-5">
-                Sizi Bekliyoruz!
-              </h2>
-              <div className="border border-b-red-800" />
-              <p className="text-sm md:text-base font-medium text-[#1a1a1a] max-h-[20vh] lg:max-w-[700px] overflow-y-auto">
-                Hemen gelin, dönerin en lezzetlisini keşfedin. Hızlı
-                servisimizle, hem mekanımızda hem de siparişlerinizi kapınıza
-                kadar getirerek sizlere lezzet dolu anlar yaşatıyoruz. Her zaman
-                sıcak, taze ve lezzetli döner için kapılarımız sonuna kadar
-                açık!
+                Başak Döner olarak, Balıkesir ve Tekirdağ yörelerinin özenle
+                seçilmiş, doğal beslenmiş hayvanlarından elde edilen etleri
+                kullanıyoruz. Tamamen geleneksel terbiye usulleriyle hazırlanan
+                etlerimiz, %100 yaprak döner olarak servis edilmektedir.
+                Lezzetin kaynağı olan kaliteli malzemelerle damak tadınıza en
+                iyi döner lezzetini sunmaya çalışıyoruz. Yanında sunulan taze
+                garnitürler ve özel tatlılar ile, her lokmada benzersiz bir
+                deneyim sunmayı amaçlıyoruz.
               </p>
             </div>
             <img
               src="/images/döner3.jpg"
+              alt="döner"
+              className="w-full aspect-square rounded-md object-cover"
+            />
+          </div>
+        </Container>
+        <Container>
+          <div className="lg:grid lg:grid-cols-3 flex flex-col-reverse justify-center gap-4 md:gap-12 lg:my-16 my-5">
+            <img
+              src="/images/5.jpg"
+              alt="döner"
+              className="w-full aspect-square rounded-md object-cover"
+            />
+            <div className="lg:col-span-2 flex flex-col gap-4">
+              <h2 className="text-2xl md:text-4xl font-semibold text-zinc-800">
+                Kalite
+              </h2>
+              <div className="border border-b-red-800" />
+              <p className="text-sm md:text-base font-medium text-[#1a1a1a] lg:max-w-[700px] overflow-y-auto">
+                Hijyen ve sağlık, Başak Döner’in vazgeçilmez önceliklerindendir.
+                Yemeklerimiz, hijyen standartlarına uygun bir şekilde, alanında
+                uzman ekibimiz tarafından özenle hazırlanır. Kullandığımız
+                malzemelerin tazeliğini ve doğallığını her zaman kontrol ederek,
+                misafirlerimize gönül rahatlığıyla tüketecekleri yemekler
+                sunuyoruz. Kaliteli hizmet anlayışımız, sadece yemekte değil,
+                güler yüzlü ve profesyonel servisimizle de hissedilmektedir.
+                Bizim için en iyi döner demek sizlerin her anlamda memnun
+                kaldığınız bir hizmet demek.
+              </p>
+            </div>
+          </div>
+        </Container>
+        <Container>
+          <div className="lg:grid lg:grid-cols-3 flex flex-col gap-4 md:gap-12 justify-center lg:my-20 my-5">
+            <div className="lg:col-span-2 flex flex-col gap-4">
+              <h2 className="text-2xl md:text-4xl font-semibold text-zinc-800">
+                Hız
+              </h2>
+              <div className="border border-b-red-800" />
+              <p className="text-sm md:text-base font-medium text-[#1a1a1a] max-h-[30vh] lg:max-w-[800px] overflow-y-auto">
+                Modern yaşamın hızlı temposuna ayak uydurarak, Başak Döner
+                lezzetlerini en kısa sürede sizlere ulaştırmayı hedefliyoruz.
+                Özellikle paket servis hizmetimizde, siparişlerinizin tazeliğini
+                ve kalitesini koruyarak evlerinize ve iş yerlerinize
+                ulaştırıyoruz. Hızlı teslimat sistemimiz sayesinde, hem
+                zamanınızı hem de lezzet iştahınızı karşılamaktan mutluluk
+                duyuyoruz. Teknolojiyi etkin bir şekilde kullanarak,
+                süreçlerimizi optimize ediyor ve sizlere daha iyi hizmet
+                veriyoruz. Rezervasyon ve paket servis hizmeti için bizi lütfen
+                arayın.
+              </p>
+            </div>
+            <img
+              src="/images/Kurye.jpg"
               alt="döner"
               className="w-full aspect-square rounded-md object-cover"
             />
