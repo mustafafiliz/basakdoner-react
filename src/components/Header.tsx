@@ -132,6 +132,12 @@ const Header = () => {
                 Menü
               </NavLink>
               <NavLink
+                to="/paket-servis"
+                className={({ isActive }) => navLinkStyles(isActive)}
+              >
+                Paket Servis
+              </NavLink>
+              <NavLink
                 to="/basin"
                 className={({ isActive }) => navLinkStyles(isActive)}
               >
@@ -180,6 +186,13 @@ const Header = () => {
                   className={({ isActive }) => navLinkStyles(isActive)}
                 >
                   MENÜ
+                </NavLink>
+                <NavLink
+                  to="/paket-servis"
+                  onClick={() => setIsMenuOpen(false)}
+                  className={({ isActive }) => navLinkStyles(isActive)}
+                >
+                  Paket Servis
                 </NavLink>
                 <NavLink
                   to="/basin"

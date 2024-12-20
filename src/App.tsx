@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Menu from "./pages/Menu";
 import Communication from "./pages/Communication";
 import Press from "./pages/Press";
+import Delivery from "./pages/Delivery";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/menu" element={<Menu />} />
           <Route path="/iletisim" element={<Communication />} />
           <Route path="/basin" element={<Press />} />
+          <Route path="/paket-servis" element={<Delivery />} />
         </Route>
       </Routes>
     </BrowserRouter>
