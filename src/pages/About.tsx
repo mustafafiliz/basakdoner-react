@@ -26,7 +26,7 @@ const About = () => {
             <h3 className="text-2xl md:text-4xl font-semibold text-zinc-800 md:leading-7 text-center md:mb-8">
               BAŞAK DÖNER
             </h3>
-            <p className="text-sm md:text-base font-medium text-[#1a1a1a]  overflow-y-auto leading-10 ">
+            <p className="text-sm md:text-base font-medium text-[#1a1a1a]  overflow-y-auto lg:leading-10 leading-6 ">
               Başak Döner olarak, lezzeti bir sanat olarak görüyoruz!
               Kuruluşumuzdan bu yana, misafirlerimize en iyi döner deneyimini
               sunma tutkusuyla çalışıyoruz. Tüm ürünlerimizi sevgi ve özenle
@@ -46,7 +46,7 @@ const About = () => {
               katıldığınız için teşekkür ederiz. Gelin, birlikte bu eşsiz lezzet
               yolculuğuna çıkalım!
             </p>
-            <p className="text-sm md:text-base font-medium text-[#1a1a1a]  overflow-y-auto leading-10">
+            <p className="text-sm md:text-base font-medium text-[#1a1a1a]  overflow-y-auto lg:leading-10 leading-6">
               <br />
               Dönerimiz sadece bir yemek değil, bir tutkunun eseri. Başak Döner
               olarak, misafirlerimize sunduğumuz her porsiyonun bir hikâyesi
@@ -56,7 +56,7 @@ const About = () => {
               saygıyı, inovasyonla birleştirerek her damak zevkine hitap eden
               menüler oluşturuyoruz.
             </p>
-            <p className="text-sm md:text-base font-medium text-[#1a1a1a]  overflow-y-auto leading-10">
+            <p className="text-sm md:text-base font-medium text-[#1a1a1a]  overflow-y-auto lg:leading-10 leading-6">
               <br />
               Başak Döner için her müşteri bir aile üyesi gibidir. Bu nedenle
               hizmetimizi yalnızca masaya servis etmekle sınırlamıyor, her bir
@@ -66,7 +66,7 @@ const About = () => {
               biliyoruz ki en büyük başarı, yüzlerdeki memnuniyet dolu bir
               gülümsemedir.
             </p>
-            <p className="text-sm md:text-base font-medium text-[#1a1a1a]  overflow-y-auto leading-10">
+            <p className="text-sm md:text-base font-medium text-[#1a1a1a]  overflow-y-auto lg:leading-10 leading-6">
               <br /> Gelecek hedeflerimiz de bir o kadar iddialı! Türk
               mutfağının bu eşsiz lezzetini, dünya çapında daha fazla insana
               tanıtmayı amaçlıyoruz. Kalitemizden ödün vermeden büyürken, her
