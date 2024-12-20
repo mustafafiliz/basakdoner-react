@@ -5,7 +5,7 @@ const Delivery = () => {
   return (
     <>
       <Helmet>
-        <title>Başak Döner - İletişim</title>
+        <title>Başak Döner - Paket Servis</title>
         <meta
           name="description"
           content="Başak Döner şubelerimiz, iletişim bilgilerimiz ve adres bilgilerimiz. Sipariş ve önerileriniz için bize ulaşın."
@@ -28,7 +28,7 @@ const Delivery = () => {
                 alt="kurye"
                 className="lg:max-w-[640px] mx-auto aspect-[4/1] object-cover rounded-lg mb-7"
               />
-              <p className="text-sm md:text-base font-medium text-[#1a1a1a] max-h-[30vh] lg:max-w-full max-w-[400px] overflow-y-hidden">
+              <p className="text-sm md:text-base font-medium text-[#1a1a1a] lg:max-w-full max-w-[400px]">
                 Kadıköy Kozyatağı Mahallesi’nde bulunan lokantamız, en yakın
                 dönerci arayışında olan herkes için doğal bir merkez
                 konumundadır. Kozyatağı’nın yanı sıra Suadiye, Bostancı,

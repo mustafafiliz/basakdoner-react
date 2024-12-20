@@ -19,7 +19,7 @@ const Home = () => {
       </Helmet>
       <div className="min-h-screen overflow-hidden">
         <Helmet>
-          <title>Başak Döner</title>
+          <title>Başak Döner - Ustalıkla Hazırlanan Eşsiz Döner Lezzeti</title>
           <meta name="description" content="Nested component" />
         </Helmet>
         <SampleSlider />
