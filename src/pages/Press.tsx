@@ -31,27 +31,28 @@ const Press = () => {
                   className="md:max-w-[550px] object-cover rounded-lg shadow-md"
                 />
               </div>
-              <p className="text-sm md:text-base font-medium text-[#1a1a1a] lg:max-w-[700px] overflow-y-auto mt-10 lg:mt-0">
+              <div className="text-sm md:text-base font-medium text-[#1a1a1a] lg:max-w-[700px] overflow-y-auto mt-10 lg:mt-0">
                 <span className="text-red-800 font-bold">
                   BAŞAK DÖNER&KÖFTE
-                </span>{" "}
-                <br /> <br />
-                Sizlerden gelen mesajlar üzerine, Kadıköy Kozyatağı’ndaki Başak
-                Döner’e gittim. Taner ve kardeşi Tamer usta yaklaşık 40 yıldır
-                bölgede döner salonu işletiyorlar. Ürünleri yüzde yüz yaprak
-                döner. Dana eti ve kuzu döşü kullanıyorlar. Sabah 10.00
-                sıralarında et ve tavuk döner başlıyor yavaş yavaş ısınmaya.
-                Yavaş yavaş diyorum çünkü dönere lezzeti veren en önemli özellik
-                yavaş pişmesi.
+                </span>
+                <p className="mt-5">
+                  Sizlerden gelen mesajlar üzerine, Kadıköy Kozyatağı’ndaki
+                  Başak Döner’e gittim. Taner ve kardeşi Tamer usta yaklaşık 40
+                  yıldır bölgede döner salonu işletiyorlar. Ürünleri yüzde yüz
+                  yaprak döner. Dana eti ve kuzu döşü kullanıyorlar. Sabah 10.00
+                  sıralarında et ve tavuk döner başlıyor yavaş yavaş ısınmaya.
+                  Yavaş yavaş diyorum çünkü dönere lezzeti veren en önemli
+                  özellik yavaş pişmesi.
+                </p>
                 <a
                   href="https://www.hurriyet.com.tr/lezizz/yazarlar/sertac-virancik/kadikoyun-4-nefis-donercisi-41746080"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-red-800 hover:text-red-600 font-medium mt-4 "
+                  className="text-red-800 hover:text-red-600 font-medium mt-3 flex"
                 >
                   Devamını oku ...
                 </a>
-              </p>
+              </div>
             </div>
           </div>
         </section>
