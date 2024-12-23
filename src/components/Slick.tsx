@@ -34,28 +34,28 @@ const SampleSlider: React.FC = () => {
         <div className="relative">
           <img
             src="/images/1.jpeg"
-            alt="Resim 1"
+            alt="basak-doner"
             className="w-full aspect-[2/1] lg:aspect-[3/1] object-cover"
           />
         </div>
         <div className="relative">
           <img
             src="/images/2.jpeg"
-            alt="Resim 2"
+            alt="basak-doner"
             className="w-full aspect-[2/1] lg:aspect-[3/1] object-cover"
           />
         </div>
         <div className="relative">
           <img
             src="/images/3.jpeg"
-            alt="Resim 3"
+            alt="basak-doner"
             className="w-full aspect-[2/1] lg:aspect-[3/1] object-cover"
           />
         </div>
         <div className="relative">
           <img
             src="/images/döner3.jpg"
-            alt="Resim 4"
+            alt="basak-doner"
             className="w-full aspect-[2/1] lg:aspect-[3/1] object-cover"
           />
         </div>

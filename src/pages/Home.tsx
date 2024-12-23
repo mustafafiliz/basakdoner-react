@@ -27,7 +27,7 @@ const Home = () => {
         <Container>
           <div className="lg:grid lg:grid-cols-3 flex flex-col-reverse justify-center gap-4 md:gap-12 lg:my-16 my-5">
             <img
-              src="/images/6.jpg"
+              src="/images/6-1.jpg"
               alt="döner"
               className="w-full aspect-square rounded-md object-cover"
             />
@@ -75,7 +75,7 @@ const Home = () => {
         <Container>
           <div className="lg:grid lg:grid-cols-3 flex flex-col-reverse justify-center gap-4 md:gap-12 lg:my-16 my-5">
             <img
-              src="/images/5.jpg"
+              src="/images/5-1.png"
               alt="döner"
               className="w-full aspect-square rounded-md object-cover"
             />
