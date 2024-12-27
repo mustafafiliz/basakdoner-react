@@ -48,9 +48,13 @@ const Footer = () => {
                     basakdoner@outlook.com
                   </a>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex gap-2">
                   <MapPin className="h-5 w-5" />
-                  <span>İstanbul, Türkiye</span>
+                  <span className="flex-1">
+                    Kozyatağı, Yavuzlar Apartmanı, Kozyatağı Sk. No:23/A, 34742
+                    <br />
+                    Kadıköy/İstanbul
+                  </span>
                 </div>
               </div>
             </div>
