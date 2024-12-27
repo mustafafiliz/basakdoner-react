@@ -1,12 +1,5 @@
 import { Link } from "react-router-dom";
-import {
-  Facebook,
-  Instagram,
-  Mail,
-  MapPin,
-  Phone,
-  Twitter,
-} from "lucide-react";
+import { Facebook, Instagram, Mail, MapPin, Phone } from "lucide-react";
 import Container from "./Container";
 
 const Footer = () => {

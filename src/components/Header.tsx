@@ -1,13 +1,4 @@
-import {
-  Facebook,
-  Instagram,
-  Mail,
-  Menu,
-  Phone,
-  Twitter,
-  X,
-  XIcon,
-} from "lucide-react";
+import { Facebook, Instagram, Mail, Menu, Phone, X, XIcon } from "lucide-react";
 import React, { useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { navLinkStyles } from "../utils/styles";
