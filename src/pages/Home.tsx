@@ -9,7 +9,7 @@ const Home = () => {
         <title>Başak Döner - Ana Sayfa</title>
         <meta
           name="description"
-          content="1974'ten beri hizmet veren Başak Döner'de enfes lezzetlerle tanışın. Et döner, tavuk döner ve özel menülerimizle hizmetinizdeyiz."
+          content="2013'ten beri hizmet veren Başak Döner'de enfes lezzetlerle tanışın. Et döner, tavuk döner ve özel menülerimizle hizmetinizdeyiz."
         />
         <meta
           name="keywords"
@@ -24,7 +24,7 @@ const Home = () => {
           <meta property="og:title" content="Başak Döner" />
           <meta
             property="og:description"
-            content="1974'ten beri lezzet ustası Başak Döner"
+            content="2013'ten beri lezzet ustası Başak Döner"
           />
           <meta
             property="og:image"

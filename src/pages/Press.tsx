@@ -7,7 +7,7 @@ const Press = () => {
         <title>Başak Döner - Basın</title>
         <meta
           name="description"
-          content="Başak Döner'in hikayesi, değerleri ve kalite anlayışı. 1974'ten beri değişmeyen lezzet."
+          content="Başak Döner'in hikayesi, değerleri ve kalite anlayışı. 2013'ten beri değişmeyen lezzet."
         />
         <meta
           name="keywords"
@@ -17,7 +17,7 @@ const Press = () => {
         <meta property="og:title" content="Başak Döner - Basın" />
         <meta
           property="og:description"
-          content="Başak Döner'in hikayesi, değerleri ve kalite anlayışı. 1974'ten beri değişmeyen lezzet."
+          content="Başak Döner'in hikayesi, değerleri ve kalite anlayışı. 2013'ten beri değişmeyen lezzet."
         />
         <meta
           property="og:image"
