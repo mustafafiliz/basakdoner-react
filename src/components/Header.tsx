@@ -71,13 +71,18 @@ const Header = () => {
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <Link to="#" className="hover:text-white">
+              <Link
+                to="https://www.facebook.com/share/1JuR7dgPsx/?mibextid=wwXIfr"
+                target="_blank"
+                className="hover:text-white"
+              >
                 <Facebook className="h-4 w-4" />
               </Link>
-              <Link to="#" className="hover:text-white">
-                <Twitter className="h-4 w-4" />
-              </Link>
-              <Link to="#" className="hover:text-white">
+              <Link
+                to="https://www.instagram.com/basakdonerkozyatagii/profilecard/?igsh=MWR5dXByM3Jpdmtk"
+                target="_blank"
+                className="hover:text-white"
+              >
                 <Instagram className="h-4 w-4" />
               </Link>
             </div>
@@ -86,13 +91,13 @@ const Header = () => {
       </div>
 
       <div
-        className={`transition-all duration-300 bg-[#FFF3D9] ${
+        className={`transition-all duration-300 bg-[#FEF6E1] ${
           isScrolled ? "backdrop-blur-sm" : ""
         }`}
       >
         <Container>
           <div className="flex justify-between items-center pt-1 pb-2">
-            <Link to="/" className="flex items-center gap-2">
+            <Link to="/" className="flex items-center gap-2 -ml-1 lg:-ml-2">
               <img
                 src="/images/logo.png"
                 alt="Başak Döner"

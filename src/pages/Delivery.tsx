@@ -28,21 +28,26 @@ const Delivery = () => {
                 alt="kurye"
                 className="lg:max-w-[640px] mx-auto aspect-[4/1] object-cover rounded-lg mb-7"
               />
-              <p className="text-sm md:text-base font-medium text-[#1a1a1a] lg:max-w-full max-w-[400px]">
-                Kadıköy Kozyatağı Mahallesi’nde bulunan lokantamız, en yakın
-                dönerci arayışında olan herkes için doğal bir merkez
-                konumundadır. Kozyatağı’nın yanı sıra Suadiye, Bostancı,
-                Erenköy, 19 Mayıs ve Altıntepe gibi yakın semtlerin sakinleri,
-                en yakın dönerci olarak bizi tercih edebilir.
-                <br />
-                <br /> Motorize ekiplerimiz ile, bu semtlerin tamamına paket
-                servis hizmeti sunarak döner keyfini sizlere hızlı ve konforlu
-                bir biçimde ulaştırmada yardımcı oluruz. Misafirlerimiz, %100
-                yaprak et dönerin benzersiz lezzetini evlerinin rahatında
-                yaşayabilirler. Web sitemizde bulunan telefon numaralarımız
-                aracılığıyla siparişinizi kolayca verebilir, en yakın dönerci
-                olarak sunduğumuz hizmetin tadını çıkarabilirsiniz!
-              </p>
+              <div>
+                <h3 className="text-red-800 font-bold lg:text-2xl text-base mb-2">
+                  Kozyatağı Döner Servisi
+                </h3>
+                <p className="text-sm md:text-base font-medium text-[#1a1a1a] lg:max-w-full max-w-[400px]">
+                  Kadıköy Kozyatağı Mahallesi’nde bulunan lokantamız, en yakın
+                  dönerci arayışında olan herkes için doğal bir merkez
+                  konumundadır. Kozyatağı’nın yanı sıra Suadiye, Bostancı,
+                  Erenköy, 19 Mayıs ve Altıntepe gibi yakın semtlerin sakinleri,
+                  en yakın dönerci olarak bizi tercih edebilir.
+                  <br />
+                  <br /> Motorize ekiplerimiz ile, bu semtlerin tamamına paket
+                  servis hizmeti sunarak döner keyfini sizlere hızlı ve konforlu
+                  bir biçimde ulaştırmada yardımcı oluruz. Misafirlerimiz, %100
+                  yaprak et dönerin benzersiz lezzetini evlerinin rahatında
+                  yaşayabilirler. Web sitemizde bulunan telefon numaralarımız
+                  aracılığıyla siparişinizi kolayca verebilir, en yakın dönerci
+                  olarak sunduğumuz hizmetin tadını çıkarabilirsiniz!
+                </p>
+              </div>
             </div>
             <div>
               <h3 className="text-red-800 font-bold lg:text-2xl text-base mb-2">

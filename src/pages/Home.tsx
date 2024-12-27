@@ -114,8 +114,7 @@ const Home = () => {
                 zamanınızı hem de lezzet iştahınızı karşılamaktan mutluluk
                 duyuyoruz. Teknolojiyi etkin bir şekilde kullanarak,
                 süreçlerimizi optimize ediyor ve sizlere daha iyi hizmet
-                veriyoruz. Rezervasyon ve paket servis hizmeti için bizi lütfen
-                arayın.
+                veriyoruz.
               </p>
             </div>
             <img
