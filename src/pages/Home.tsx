@@ -21,6 +21,21 @@ const Home = () => {
         <Helmet>
           <title>Başak Döner - Ustalıkla Hazırlanan Eşsiz Döner Lezzeti</title>
           <meta name="description" content="Nested component" />
+          <meta property="og:title" content="Başak Döner" />
+          <meta
+            property="og:description"
+            content="1974'ten beri lezzet ustası Başak Döner"
+          />
+          <meta
+            property="og:image"
+            content="https://basakdoner-react.vercel.app/logo.png"
+          />
+          <meta
+            property="og:url"
+            content="https://basakdoner-react.vercel.app"
+          />
+          <meta property="og:type" content="website" />
+          <meta property="og:site_name" content="Başak Döner" />
         </Helmet>
         <SampleSlider />
 

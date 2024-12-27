@@ -15,6 +15,21 @@ const Delivery = () => {
           content="başak döner iletişim, başak döner adres, başak döner telefon, başak döner sipariş"
         />
         <link rel="canonical" href="/contact" />
+        <meta property="og:title" content="Başak Döner - Paket Servis" />
+        <meta
+          property="og:description"
+          content="Başak Döner şubelerimiz, iletişim bilgilerimiz ve adres bilgilerimiz. Sipariş ve önerileriniz için bize ulaşın."
+        />
+        <meta
+          property="og:image"
+          content="https://basakdoner-react.vercel.app/logo.png"
+        />
+        <meta
+          property="og:url"
+          content="https://basakdoner-react.vercel.app/paket-servis"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Başak Döner" />
       </Helmet>
       <Container>
         <div className="">

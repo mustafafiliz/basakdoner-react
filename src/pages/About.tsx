@@ -14,6 +14,21 @@ const About = () => {
           content="başak döner tarihi, başak döner hikaye, döner ustası, geleneksel döner"
         />
         <link rel="canonical" href="/about" />
+        <meta property="og:title" content="Başak Döner - Hakkımızda" />
+        <meta
+          property="og:description"
+          content="Başak Döner'in hikayesi, değerleri ve kalite anlayışı. 1974'ten beri değişmeyen lezzet."
+        />
+        <meta
+          property="og:image"
+          content="https://basakdoner-react.vercel.app/logo.png"
+        />
+        <meta
+          property="og:url"
+          content="https://basakdoner-react.vercel.app/hakkimizda"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Başak Döner" />
       </Helmet>
       <div>
         <img

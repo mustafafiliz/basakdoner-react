@@ -184,6 +184,21 @@ const Menu = () => {
           content="başak döner, et döner, tavuk döner, iskender, beyti, pilav üstü döner"
         />
         <link rel="canonical" href="/menu" />
+        <meta property="og:title" content="Başak Döner - Menü" />
+        <meta
+          property="og:description"
+          content="Başak Döner'in lezzetli et döner, tavuk döner, çorbalar, tatlılar ve yan lezzetler menüsü"
+        />
+        <meta
+          property="og:image"
+          content="https://basakdoner-react.vercel.app/logo.png"
+        />
+        <meta
+          property="og:url"
+          content="https://basakdoner-react.vercel.app/menu"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Başak Döner" />
       </Helmet>
       <div>
         <nav className="sticky lg:top-[89px] top-[48px] bg-[#A31F34] text-white shadow-md z-30">
