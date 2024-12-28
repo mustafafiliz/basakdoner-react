@@ -138,7 +138,7 @@ const menuItems = {
   yanLezzetler: [
     {
       title: "Çoban Salata",
-      image: "/images/Çoban-Salata.jpg",
+      image: "/images/coban-salata.jpg",
     },
     {
       title: "Duble Patates Kızartması",
