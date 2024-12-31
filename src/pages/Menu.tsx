@@ -53,7 +53,7 @@ const menuItems = {
       image: "/images/Yarım-Ekmek-Et-Döner.jpg",
     },
     {
-      title: "Tombik Ekmek Et Döner.jpg",
+      title: "Tombik Ekmek Et Döner",
       image: "/images/Tombik-Ekmek-Et-Döner.jpg",
     },
     {
