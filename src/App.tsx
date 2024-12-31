@@ -16,7 +16,7 @@ function App() {
         <Route element={<RootLayout />}>
           <Route path="/" element={<Home />} />
           <Route path="/anasayfa" element={<Home />} />
-          <Route path="/hakkımızda" element={<About />} />
+          <Route path="/hakkimizda" element={<About />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/iletisim" element={<Communication />} />
           <Route path="/basin" element={<Press />} />
