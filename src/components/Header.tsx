@@ -116,7 +116,7 @@ const Header = () => {
                 Anasayfa
               </NavLink>
               <NavLink
-                to="/hakkımızda"
+                to="/hakkimizda"
                 className={({ isActive }) => navLinkStyles(isActive)}
               >
                 Hakkımızda
@@ -170,7 +170,7 @@ const Header = () => {
                   ANASAYFA
                 </NavLink>
                 <NavLink
-                  to="/hakkımızda"
+                  to="/hakkimizda"
                   onClick={() => setIsMenuOpen(false)}
                   className={({ isActive }) => navLinkStyles(isActive)}
                 >
