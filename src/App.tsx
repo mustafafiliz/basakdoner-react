@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import RootLayout from "./layouts/RootLayout";
 import "slick-carousel/slick/slick.css";
