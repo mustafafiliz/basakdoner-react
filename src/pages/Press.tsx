@@ -80,7 +80,7 @@ const Press = () => {
             <div className="lg:border-2 border border-red-800 w-full lg:my-10 my-5" />
 
             <div className="lg:flex lg:gap-16 lg:mt-28 mt-10">
-              <a 
+              <a
                 href="https://www.youtube.com/watch?v=jSGpKwOQzug&t=717s"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -93,8 +93,12 @@ const Press = () => {
                 />
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="bg-red-600 bg-opacity-90 rounded-full p-4 group-hover:bg-opacity-100 group-hover:scale-110 transition-all">
-                    <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z"/>
+                    <svg
+                      className="w-8 h-8 text-white"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M8 5v14l11-7z" />
                     </svg>
                   </div>
                 </div>
@@ -104,12 +108,60 @@ const Press = () => {
                   ENİS KİRAZOĞLU VE TUNA TAVUS İLE YEMEK TURU
                 </span>
                 <p className="mt-5">
-                  Tuna Tavus ve Enis Kirazoğlu, Başak Döner'i ziyaret ederek eşsiz 
-                  lezzetlerimizi denedi. Yıllardır aynı özenle hazırlanan dönerlerimizin 
-                  tadını bu videoda keşfedebilirsiniz.
+                  Tuna Tavus ve Enis Kirazoğlu, Başak Döner'i ziyaret ederek
+                  eşsiz lezzetlerimizi denedi. Yıllardır aynı özenle hazırlanan
+                  dönerlerimizin tadını bu videoda keşfedebilirsiniz.
                 </p>
                 <a
                   href="https://www.youtube.com/watch?v=jSGpKwOQzug&t=717s"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-red-800 hover:text-red-600 font-medium mt-3 flex"
+                >
+                  İçeriği İzle ...
+                </a>
+              </div>
+            </div>
+
+            {/* Chef Story Video */}
+            <div className="lg:flex lg:gap-16 lg:mt-20 mt-16">
+              <a
+                href="https://www.youtube.com/watch?v=NP4plGth4FY"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative block lg:w-[550px] flex-shrink-0 group"
+              >
+                <img
+                  src="/images/chef-story.png"
+                  alt="Chef Story - Kozyatağı'nda Şirin Bir Mahalle Dönercisi"
+                  className="w-full object-cover rounded-lg shadow-lg group-hover:opacity-90 transition-opacity"
+                />
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="bg-red-600 bg-opacity-90 rounded-full p-4 group-hover:bg-opacity-100 group-hover:scale-110 transition-all">
+                    <svg
+                      className="w-8 h-8 text-white"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M8 5v14l11-7z" />
+                    </svg>
+                  </div>
+                </div>
+              </a>
+              <div className="text-sm md:text-base font-medium text-[#1a1a1a] lg:max-w-[700px] overflow-y-auto mt-10 lg:mt-0">
+                <span className="text-red-800 font-bold">
+                  KOZYATAĞI'NDA ŞİRİN BİR MAHALLE DÖNERCİSİ - CHEF STORY
+                </span>
+                <p className="mt-5">
+                  Döner ve kebap sektörüne yıllarını veren, birçok dönerci açan
+                  ancak ekonomik krizler sebebiyle dükkanlarını kapatmak zorunda
+                  kalan Taner Demirkıran, son olarak Kozyatağı'nda açtığı Başak
+                  Döner ile başarıyı yakaladı. '80'lerdeki gibi yaptığı
+                  döneriyle misafirlerine damak şöleni yaşatan Başak Döner ve
+                  Taner Demirkıran'ın hikayesi Chef Story'de.
+                </p>
+                <a
+                  href="https://www.youtube.com/watch?v=NP4plGth4FY"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-red-800 hover:text-red-600 font-medium mt-3 flex"
